@@ -402,7 +402,7 @@
     height: 2350px;
     width: 100%;
     font-family: "Playfair Display", serif;
-    background-color: #cdbced;
+    background-color: #80558c ;
     text-align: center;
   }
   .skills {
@@ -590,7 +590,7 @@
   .footer {
     width: 100%;
     height: 13%;
-    background-color: #80558c;
+    background-color:#cdbced;
     position: absolute;
     display: block;
     text-align: center;
