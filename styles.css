@@ -1,311 +1,598 @@
-body{
+@media screen and (min-width: 700px) {
+  body {
     margin: 0 0 0 0;
-}
+  }
 
-h3{
-    margin-top:1px;
+  h3 {
+    margin-top: 1px;
     font-size: 12px;
-    font-family: 'Poiret One', cursive;
-}
-h1{
-    margin-top:0;
-}
+    font-family: "Poiret One", cursive;
+  }
+  h1 {
+    margin-top: 0;
+  }
 
-.name_place{
-    display:block;
+  .name_place {
+    display: block;
     position: fixed;
-    left:50px;
-    top:25px;
-}
-.Name{
-    text-align:center;
-    position:relative;
-    margin:0;
-    top:170px;
-    font-size:200px;
-    font-family: 'Allura', cursive;
+    left: 50px;
+    top: 25px;
+  }
 
-}
-.myName{
+  .Name {
+    text-align: center;
+    position: relative;
+    margin: 0;
+    top: 170px;
+    font-size: 200px;
+    font-family: "Allura", cursive;
+  }
+  .myName {
     margin: 0 0 0 0;
     font-size: 13px;
-    font-family: 'Noto Serif TC', serif;
-}
+    font-family: "Noto Serif TC", serif;
+  }
 
-.Work_About{
-    margin-top:0;
+  .Work_About {
+    margin-top: 0;
     font-size: 14px;
-    
-    font-family: 'Libre Baskerville', serif;
-    position: fixed;
-    top:10px;
-    left:85%;
-    
-}
 
-.work{
+    font-family: "Libre Baskerville", serif;
+    position: fixed;
+    top: 10px;
+    left: 85%;
+  }
+
+  .work {
     display: inline;
     position: relative;
     right: 18px;
-}
+  }
 
-.aboutMe{
-    display:inline;
+  .aboutMe {
+    display: inline;
     position: relative;
+  }
 
-}
-
-.mailImg{
-    display:inline;
+  .mailImg {
+    display: inline;
     position: relative;
-    left:20px;
-    top:10px;
-    width:30px;
-}
+    left: 20px;
+    top: 10px;
+    width: 30px;
+  }
 
-.Intro{
-    font-size:15px;
-    text-align:center;
-    position:relative;
-    margin:0;
-    top:140px;
-    font-family: 'Crimson Pro', serif;
-}
-
-.mainDiv{
-    margin : 0 0 0 0;
-}
-
-.headerDiv{
-    
-    height: 700px;
-    background-color :#dfd5f2;
-}
-
-.middleDiv{
-    display: block;
-    position : relative;
-    
-    height:146.875em;
-    width : 100%;
-    font-family: 'Playfair Display', serif;
-    /* background-color:#d0c5e7; */
-    background-color :#80558C;
-    
-    
-}
-
-.skills{
-    position : relative;
-    top:2%;
-    /* font-family: 'Playfair Display', serif; */
-    font-family: 'Cormorant SC', serif;
+  .Intro {
+    font-size: 15px;
     text-align: center;
-    font-size:500%; 
-}
+    position: relative;
+    margin: 0;
+    top: 140px;
+    font-family: "Crimson Pro", serif;
+  }
 
-.footerDiv{
+  .mainDiv {
+    margin: 0 0 0 0;
+  }
+
+  .headerDiv {
+    height: 700px;
+    background-color: #dfd5f2;
+  }
+
+  .middleDiv {
+    display: block;
+    position: relative;
+
+    height: 146.875em;
     width: 100%;
-    position:absolute;
+    font-family: "Playfair Display", serif;
+
+    background-color: #80558c;
+  }
+
+  .skills {
+    position: relative;
+    top: 2%;
+    font-family: "Cormorant SC", serif;
+    text-align: center;
+    font-size: 500%;
+  }
+
+  .bottomDiv {
+    width: 100%;
+    position: absolute;
     height: 100%;
-    background-color :#dfd5f2;
-}
+    background-color: #dfd5f2;
+  }
 
-.cDiv{
+  .cDiv {
     display: block;
     position: absolute;
-    left:10em;
-    top:10%;
-}
+    left: 10em;
+    top: 10%;
+  }
 
-.cImg{
+  .cImg {
     width: 45%;
+  }
 
-}
+  .cName {
+    display: block;
+  }
 
-.cName{
-    display:block;
-}
-
-.cPara{
-    position : relative;
-    left:17.5rem;
-    bottom:17.1875rem;
-    font-family: 'Alegreya', serif;
+  .cPara {
+    position: relative;
+    left: 17.5rem;
+    bottom: 17.1875rem;
+    font-family: "Alegreya", serif;
     font-size: 1.5rem;
-}
+  }
 
-.cppDiv{
-    display:block;
-    position:absolute;
+  .cppDiv {
+    display: block;
+    position: absolute;
     top: 36.5em;
-    right:1%;
-}
-.cppImg{
+    right: 1%;
+  }
+  .cppImg {
     position: relative;
-    left:180px;
+    left: 180px;
     width: 50%;
-}
-.cppName{
+  }
+  .cppName {
     display: block;
     position: relative;
     text-align: right;
-    right:5.3em;
-}
+    right: 5.3em;
+  }
 
-.cppPara{
-    position : relative;
-    bottom:310px;
-    right:330px;
-    font-family: 'Alegreya', serif;
+  .cppPara {
+    position: relative;
+    bottom: 310px;
+    right: 330px;
+    font-family: "Alegreya", serif;
     font-size: 1.5rem;
-}
+  }
 
-.javaDiv{
+  .javaDiv {
     display: block;
     position: absolute;
-    left:10em;
-    top:57em;
-    
-}
+    left: 10em;
+    top: 57em;
+  }
 
-.javaImg{
+  .javaImg {
     width: 45%;
-}
+  }
 
-.javaName{
+  .javaName {
     position: relative;
-    left:80px;
-}
+    left: 80px;
+  }
 
-.javaPara{
-    position : relative;
-    left:17.5rem;
-    bottom:17.1875rem;
-    font-family: 'Alegreya', serif;
+  .javaPara {
+    position: relative;
+    left: 17.5rem;
+    bottom: 17.1875rem;
+    font-family: "Alegreya", serif;
     font-size: 1.5rem;
-}
+  }
 
-.htmlDiv{
-    display:block;
-    position:absolute;
+  .htmlDiv {
+    display: block;
+    position: absolute;
     top: 75em;
-    right:1%;
-}
+    right: 1%;
+  }
 
-.htmlImg{
+  .htmlImg {
     position: relative;
-    left:180px;
+    left: 180px;
     width: 50%;
-}
+  }
 
-.htmlName{
+  .htmlName {
     display: block;
     position: relative;
     text-align: right;
-    right:4.9em;
-}
-.htmlPara{
-    position : relative;
-    bottom:260px;
-    right:330px;
-    font-family: 'Alegreya', serif;
+    right: 4.9em;
+  }
+  .htmlPara {
+    position: relative;
+    bottom: 260px;
+    right: 330px;
+    font-family: "Alegreya", serif;
     font-size: 1.5rem;
-}
+  }
 
-.cssDiv{
+  .cssDiv {
     display: block;
     position: absolute;
-    left:10em;
-    top:98em;
-}
+    left: 10em;
+    top: 98em;
+  }
 
-.cssImg{
+  .cssImg {
     width: 45%;
-}
+  }
 
-.cssName{
+  .cssName {
     position: relative;
-    left:80px;
-}
+    left: 80px;
+  }
 
-.cssPara{
-    position : relative;
-    left:17.5rem;
-    bottom:17.1875rem;
-    font-family: 'Alegreya', serif;
+  .cssPara {
+    position: relative;
+    left: 17.5rem;
+    bottom: 17.1875rem;
+    font-family: "Alegreya", serif;
     font-size: 1.5rem;
-}
+  }
 
-.jsDiv{
-    display:block;
-    position:absolute;
+  .jsDiv {
+    display: block;
+    position: absolute;
     top: 119em;
-    right:1%;
-}
+    right: 1%;
+  }
 
-.jsImg{
+  .jsImg {
     position: relative;
-    left:180px;
+    left: 180px;
     width: 50%;
-}
+  }
 
-.jsName{
+  .jsName {
     display: block;
     position: relative;
     text-align: right;
-    right:4.1em;
-}
+    right: 4.1em;
+  }
 
-.jsPara{
-    position : relative;
-    bottom:300px;
-    right:330px;
-    font-family: 'Alegreya', serif;
+  .jsPara {
+    position: relative;
+    bottom: 300px;
+    right: 330px;
+    font-family: "Alegreya", serif;
     font-size: 1.5rem;
-}
+  }
 
+  .letsTalk {
+    /* position: absolute;
+  top: 25%;
+  left: 30%;
+  font-size: 1200.5%;
+  font-family: "Allura", cursive; */
+    text-align: center;
+    position: relative;
+    margin: 0;
+    top: 170px;
+    font-size: 200px;
+    font-family: "Allura", cursive;
+  }
 
-
-.letsTalk{
+  .instagram {
+    width: 3%;
     position: absolute;
-    top:25%;
-    left:32%;
-    font-size:200px;
-    font-family: 'Allura', cursive;
+    top: 75%;
+    left: 31.25%;
+  }
 
+  .linkedin {
+    width: 3%;
+    position: absolute;
+    top: 75%;
+    left: 40.25%;
+  }
+
+  .facebook {
+    width: 3%;
+    position: absolute;
+    top: 75%;
+    left: 49.25%;
+  }
+  .discord {
+    width: 3%;
+    position: absolute;
+    top: 75%;
+    left: 58.25%;
+  }
+
+  .mail {
+    width: 3%;
+    position: absolute;
+    top: 75%;
+    left: 67.25%;
+  }
 }
 
-.instagram{
-    width:3%;
-    position:absolute;
-    top: 500px;
-    left: 500px;
-}
+@media screen and (max-width: 700px) {
+  body {
+    margin: 0 0 0 0;
+  }
+  h3 {
+    margin-top: 1px;
+    font-size: 15px;
+    font-family: "Poiret One", cursive;
+  }
 
-.linkedin{
-    width:3%;
-    position:absolute;
-    top: 500px;
-    left: 600px;
-}
+  h1 {
+    margin-top: 0;
+  }
 
-.facebook{
-    width:3%;
-    position:absolute;
-    top: 500px;
-    left: 700px;
-}
-.discord{
-    width:3%;
-    position:absolute;
-    top: 500px;
-    left: 800px;
-}
+  .name_place {
+    display: block;
+    position: absolute;
+    left: 15%;
+    top: 25px;
+  }
 
-.mail{
-    width:3%;
-    position:absolute;
-    top: 500px;
-    left: 900px;
+  .myName {
+    margin: 0 0 0 0;
+    font-size: 13px;
+    font-family: "Noto Serif TC", serif;
+    display: inline;
+  }
+
+  .place {
+    margin-left: 10px;
+    font-size: 13px;
+    display: inline;
+  }
+
+  .Work_About {
+    margin-top: 0;
+    font-size: 14px;
+
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 40px;
+  }
+  .work {
+    display: inline;
+    position: relative;
+    left: 100px;
+  }
+  .aboutMe {
+    display: inline;
+    position: relative;
+    left: 115px;
+  }
+
+  .mailImg {
+    display: inline;
+    position: relative;
+    left: 135px;
+    top: 8px;
+    width: 25px;
+  }
+
+  .Name {
+    text-align: center;
+    position: relative;
+    margin: 0;
+    top: 170px;
+    font-size: 100px;
+    font-family: "Allura", cursive;
+  }
+
+  .Intro {
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    margin: 20px 0 0 0;
+    top: 140px;
+    font-family: "Crimson Pro", serif;
+  }
+
+  .mainDiv {
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .headerDiv {
+    height: 600px;
+    background-color: #dfd5f2;
+  }
+
+  .middleDiv {
+    display: block;
+    position: relative;
+    height: 2350px;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    background-color: #cdbced;
+    text-align: center;
+  }
+  .skills {
+    position: relative;
+    top: 2%;
+    font-family: "Cormorant SC", serif;
+    text-align: center;
+    font-size: 500%;
+  }
+  .bottomDiv {
+    width: 100%;
+    position: absolute;
+    height: 71.5%;
+    background-color: #dfd5f2;
+  }
+  .cDiv {
+    display: block;
+    position: absolute;
+    top: 10%;
+  }
+  .cImg {
+    position: relative;
+
+    width: 35%;
+  }
+  .cName {
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+  }
+  .cPara {
+    display: none;
+    position: relative;
+    left: 130px;
+    bottom: 140px;
+    font-family: "Alegreya", serif;
+    font-size: 11.2px;
+    line-height: 15px;
+  }
+
+  .cppDiv {
+    display: block;
+    position: absolute;
+    top: 23%;
+  }
+  .cppImg {
+    position: relative;
+    width: 35%;
+  }
+  .cppName {
+    display: block;
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+  }
+  .cppPara {
+    display: none;
+  }
+  .javaDiv {
+    display: block;
+    position: absolute;
+    top: 36%;
+  }
+  .javaName {
+    display: block;
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+  }
+  .javaPara {
+    display: none;
+  }
+
+  .javaImg {
+    position: relative;
+    width: 35%;
+  }
+
+  .htmlDiv {
+    display: block;
+    position: absolute;
+    top: 49%;
+  }
+
+  .htmlImg {
+    position: relative;
+    width: 35%;
+  }
+  .htmlName {
+    display: block;
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+  }
+  .htmlPara {
+    display: none;
+  }
+  .cssDiv {
+    display: block;
+    position: absolute;
+    top: 63%;
+  }
+  .cssImg {
+    position: relative;
+    width: 35%;
+  }
+
+  .cssPara {
+    display: none;
+  }
+
+  .cssName {
+    display: block;
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+  }
+
+  .jsDiv {
+    display: block;
+    position: absolute;
+    top: 76%;
+    right: 1%;
+  }
+  .jsImg {
+    position: relative;
+    width: 35%;
+  }
+  .jsName {
+    display: block;
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+  }
+
+  .jsPara {
+    display: none;
+  }
+
+  .letsTalk {
+    text-align: center;
+    position: relative;
+    margin: 0;
+    top: 33%;
+    font-size: 100px;
+    font-family: "Allura", cursive;
+  }
+  .instagram {
+    width: 10%;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+  }
+  .linkedin {
+    width: 10%;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+  }
+  .facebook {
+    width: 10%;
+    position: absolute;
+    top: 52%;
+    left: 45%;
+  }
+
+  .discord {
+    width: 10%;
+    position: absolute;
+    top: 52%;
+    left: 60%;
+  }
+
+  .mail {
+    width: 10%;
+    position: absolute;
+    top: 52%;
+    left: 75%;
+  }
+
+  .header {
+    display: block;
+    height: 3500px;
+  }
+  .footer {
+    width: 100%;
+    height: 13%;
+    background-color: #80558c;
+    position: absolute;
+    display: block;
+    text-align: center;
+  }
 }
