@@ -26,7 +26,7 @@
     margin: 0;
     top: 170px;
     font-size: 200px;
-    font-family: "Allura", cursive;
+    font-family:serif;
   }
   .myName {
     margin: 0 0 0 0;
@@ -265,7 +265,7 @@
     margin: 0;
     top: 170px;
     font-size: 200px;
-    font-family: "Allura", cursive;
+    font-family: serif;
   }
 
   .instagram {
@@ -390,7 +390,7 @@
     margin: 0;
     top: 170px;
     font-size: 100px;
-    font-family: "Allura", cursive;
+    font-family: serif;
   }
 
   .Intro {
@@ -559,7 +559,7 @@
     margin: 0;
     top: 33%;
     font-size: 100px;
-    font-family: "Allura", cursive;
+    font-family: serif;
   }
   .instagram {
     width: 10%;
