@@ -1,2 +1,2 @@
 # raheez
-this is my profolio
+this is my portfolio
